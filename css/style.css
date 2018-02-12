@@ -1,0 +1,105 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-weight:bold;
+       font-family: 'Permanent Marker', cursive;
+}
+
+body{
+  background:rgba(91, 21, 21, 1);
+  background: url("../images/vegasbg.jpg") no-repeat;
+  background-size: cover;
+}
+button{
+  float: left;
+  margin: 28px 5% 0 0;
+  height:50px;
+  width: 10%;
+  font-size: 2.0em;
+  border-style: none;
+  color: rgba(113, 6, 6, 0.83);
+  background: url(""); /*blank to have no background just bets*/
+}
+footer{
+  font-size: 1.5em;
+  float: left;
+  margin:0 0 0 28%;
+  height:150px;
+  width: 30%;
+  background: url("../images/handonfire.gif") no-repeat;
+  background-position: left;
+  border-radius: 5px;
+}
+h1{
+  float: left;
+  font-size: 4.5em;
+  margin: .5% 1% 1% 11%;
+
+}
+h2{
+  font-size: 2.3em;
+  /* border: 2px solid rgba(213, 215, 40, 1); */
+  /* border-radius: 30%; */
+  float: left;
+  margin: 1% 2% 0 9%;
+}
+h3{
+  font-size: 1.5em;
+  float: left;
+  margin-left: 1%;
+}
+h4{
+  float: left;
+}
+
+img{
+  float: left;
+  height:240px;
+  width:100%;
+  border-radius: 5px;
+}
+/*h1 experience */
+.part2{
+ float: left;
+ margin: 6% 0 0 5%;
+}
+.buttonContain{
+  height:80px;
+  width:80%;
+  margin-left: 10%;
+  float: left;
+  border-bottom: 3px dotted black;
+}
+.reelContainer{
+  float: left;
+  height:280px;
+  width:70%;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 1% 0 0 15%;
+}
+
+.slot{
+  height:260px;
+  width:32%;
+  margin: 1% 0 0 1%;
+  float: left;
+  border: none;
+  border-radius: 5px;
+}
+.tracking{
+  float: left;
+  margin: 0 0  1 0%;
+  border: 2px solid rgba(18, 3, 69, 1);
+  height:150px;
+  width: 40%;
+  border-radius: 5px;
+  background: url("../images/lighting.gif");
+}
+ #credits, #totalBet{
+  width:45%;
+}
+#trackWinnings, #winLose{
+  width:45%;
+}
