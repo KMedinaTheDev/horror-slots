@@ -22,11 +22,12 @@ button{
   background: url(""); /*blank to have no background just bets*/
 }
 footer{
-  font-size: 1.5em;
+  font-size: 1.4em;
   float: left;
-  margin:0 0 0 28%;
+  margin:0 0 0 20%;
+  padding:2.5% 0 0 2%;
   height:150px;
-  width: 30%;
+  width: 40%;
   background: url("../images/handonfire.gif") no-repeat;
   background-position: left;
   border-radius: 5px;
