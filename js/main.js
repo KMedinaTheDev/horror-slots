@@ -32,9 +32,9 @@ alert("You Are Here!");
 
    var images=["alien.gif","fairy017.gif", "vampire.gif", "wwolf.gif","zombies.gif"];
 
-   slot1 = Math.round(Math.random()*2.5);
-   slot2 = Math.round(Math.random()*2.5);
-   slot3 = Math.round(Math.random()*2.5);
+   slot1 = Math.round(Math.random()*4);
+   slot2 = Math.round(Math.random()*4);
+   slot3 = Math.round(Math.random()*4);
    $("#slotOne").attr("src", images[slot1])
    $("#slotTwo").attr("src", images[slot2])
    $("#slotThree").attr("src", images[slot3])
